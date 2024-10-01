@@ -1,0 +1,13 @@
+@keyframes button {
+  0%,
+  100% {
+    top: 0;
+  }
+  50% {
+    top: 2px;
+  }
+}
+.active {
+  animation: button 0.3s linear;
+}
+
